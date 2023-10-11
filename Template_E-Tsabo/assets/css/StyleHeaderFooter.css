@@ -1,9 +1,9 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-} */
+}
 
 .hero{
     width: 100%;
@@ -33,7 +33,7 @@ nav {
     width: 140px;
 }
 
-nav ul li{
+nav ul .liDuNav{
     
     display: inline-block;
     list-style: none;
@@ -41,13 +41,13 @@ nav ul li{
     transition: 0.5s;
 }
 
-nav ul li:hover{
+nav ul .liDuNav:hover{
     color: #00796b;
     transform: scale(1.5);
     
 }
 
-nav ul li ::after{
+nav ul .liDuNav ::after{
     content: '';
     width: 0%;
     height: 2px;
@@ -57,11 +57,11 @@ nav ul li ::after{
     transition: 1s;
 }
 
-nav ul li :hover::after{
+nav ul .liDuNav :hover::after{
     width: 100%;
 }
 
-nav ul li a{
+nav ul .liDuNav .aDuNav{
     text-decoration: none;
     color: #333;
     font-weight: 400;
@@ -76,6 +76,7 @@ nav ul li a{
 }
 .login-btn:hover{
     color: #1acbeb;
+
 }
 
 .btn{
@@ -92,21 +93,26 @@ nav ul li a{
 
 .btn:hover{
     border-top-right-radius: 30px;
+    color: #fff;
 }
 
-.content{
-    margin-top: 175px;
+.content1{
+    margin-top: 200px;
     max-width: 600px;
 }
 
-.content h1{
+.content1 h1{
     font-size: 70px;
     color: #00796b;
-    animation-delay: 2s;
+    animation-delay: 1s;
+    margin-left: 50px;
+    
 }
 
 .content2{
-    width: 755px;
+    width: 866px;
+    margin-left: 50px;
+    margin-top: 75px;
 }
 
 .content2 h2{
@@ -118,7 +124,7 @@ nav ul li a{
     position: relative;
     animation: typing 3.5s steps(40)  forwards, fade-in 0.5s 4.5s forwards;
     visibility: hidden;
-    animation-delay: 4.5s;
+    animation-delay: 3.5s;
     
 }
 
@@ -152,18 +158,18 @@ nav ul li a{
 .content2 .btn{
     padding: 15px 80px;
     font-size: 16px;
-    animation-delay: 3s;
+    animation-delay: 2s;
 }
 
 
-.feature-img{
+.feature-img1{
     margin-bottom: 100px;
     position: absolute;
     bottom: 0;
     right: 7%;
 }
 
-.feature-img.anim{
+.feature-img1.anim{
     animation-delay: 0.5s;
 }
 
