@@ -5,6 +5,13 @@
     font-family: sans-serif;
 }
 
+
+.logoIspm{
+    
+    width: 140px;
+    height: 105px;
+  }
+
 .hero{
     width: 100%;
     min-height: 100vh;
@@ -60,13 +67,18 @@ nav ul li:hover::after{
     width: 100%;
 }
 
-nav ul li a{
+nav ul li .aDuNav{
     text-decoration: none;
     color: #333;
     font-weight: 400;
 }
 
+
 .login-btn{
+    position: absolute;
+    right: 160px; /* Ajustez la valeur en fonction de vos besoins */
+    top: 50%; /* Vous pouvez également ajuster la valeur verticale */
+    transform: translateY(-50%);
     text-decoration: none;
     color: #333;
     margin-right: 15px;
@@ -224,14 +236,18 @@ nav ul li a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     text-align: center;
+    width: 100px;
 }
 .form .lien{
     font-size: 15px;
+    width: 100px;
+    
 }
 
 .liw{
     text-align: center;
     margin-top: -20px;
+    width: 100px;
 }
 
 .icons a{
@@ -264,20 +280,27 @@ nav ul li a{
   animation-delay: 2s;
 }
 
-.content .form.anim p{
-    margin:10px 0 30px;
-    width: 755px;
+.divP{
+    margin:10px 0 30px 35px;
+    align-items: center;
+    width: 200px;
+}
+
+.content .form .divP.anim p{
+    align-items: center;
+    margin:5px 0 30px;
+    width: 100px;
     color: #1acbeb;
     overflow: hidden;
     white-space: nowrap;
     position: relative;
-    animation: typing 3.5s steps(378)  forwards, fade-in 0.5s 4.5s forwards;
+    animation: typing 2.5s steps(378)  forwards, fade-in 0.5s 4.5s forwards;
     visibility: hidden;
-    animation-delay: 5.5s;
+    animation-delay: 3.5s;
     
 }
 
-.content .form.anim p::after{
+.content .form .divP.anim p::after{
     content: "";
     position: absolute;
     display: block;

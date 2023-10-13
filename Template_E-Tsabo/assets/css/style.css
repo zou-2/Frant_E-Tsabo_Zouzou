@@ -44,6 +44,11 @@ header::after {
   bottom: -20px;
 }
 
+.logoIspm{
+  width: 140px;
+  height: 105px;
+}
+
 .nav-link {
   font-family: "Rajdhani", sans-serif;
   text-transform: uppercase;
@@ -74,6 +79,7 @@ header::after {
   color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
 }
+
 
 .login i {
   color: #1acbeb;
@@ -225,6 +231,13 @@ a{
 ------------------------------------*/
 #image3{
   height: 190px;
+}
+#BoxTextQualite{
+  margin: 200px 0 -80px 0;
+}
+#textQualite{
+  display: flex;
+  justify-content: center;
 }
 .featured.container{
   background-color: yellow;
@@ -639,7 +652,7 @@ a{
     1 - Footer
 ------------------------------------*/
 footer {
-  background: url('/assets/images/footer-bg.png') ;
+  background: url('/assets/images/footer-bg.png') center center/cover no-repeat #26264b;
 }
 
 /*-----------------------------------
