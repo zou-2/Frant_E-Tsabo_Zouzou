@@ -7,7 +7,6 @@
 
 
 .logoIspm{
-    
     width: 140px;
     height: 105px;
   }
@@ -75,10 +74,6 @@ nav ul li .aDuNav{
 
 
 .login-btn{
-    position: absolute;
-    right: 160px; /* Ajustez la valeur en fonction de vos besoins */
-    top: 50%; /* Vous pouvez également ajuster la valeur verticale */
-    transform: translateY(-50%);
     text-decoration: none;
     color: #333;
     margin-right: 15px;
